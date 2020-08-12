@@ -1,0 +1,85 @@
+* {
+
+}
+
+.slideshow-container {
+    max-width: 50vw;
+    position: relative;
+    margin: auto;
+    text-align:center;
+    height:200px;
+    padding:20px;
+    border:5px;
+}
+
+body{
+    background-image: url(https://assets-staging.audionetwork.com/usr/common/Background%20music%20header_745px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#previous, #next {
+    background-color: #C6D0DF;
+    border-radius:30px;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+#picture {
+    border-radius: 30px;
+}
+
+.tab {
+    background-color: bisque;
+    font-weight: bolder;
+}
+
+.tablinks {
+    display:flex;
+
+}
+
+img {
+    height:100%;
+    width:100%;
+    filter:brightness(120%)
+}
+
+.tabcontent{
+    border: solid black;
+    border-radius: 30px;
+}
+
+#summary, #practicalinfo, #contactform {
+ background-color: lightskyblue;
+}
+
+#numbers {
+    background-color: bisque;
+    text-align: center;
+}
+
+#map {
+    text-align: center;
+}
+
+.footer {
+    text-align:right;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#feedback {
+    width:50%;
+    margin-top: 15px;
+}
+
+
+
+
+
