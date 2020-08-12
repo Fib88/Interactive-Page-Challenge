@@ -1,6 +1,6 @@
 # Interactive-Page-Challenge
 
-Tessa,Hyen, Frank
+Tessa,Huyen, Frank
 
 Title: Interactive page challenge
 
