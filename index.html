@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+<html lang="en">
 
+<head>
 <meta name="description" content="description">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="index.css">
+<!--<link rel="stylesheet" type="text/css" href="index.css">-->
 
-<html lang="en">
-<head>
+
+
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>BeCode Festival 2021</title>
 </head>
@@ -15,7 +17,7 @@
     <div class="slideshow-container">
         <button id="previous">previous</button>
         <button id="next">next</button>
-        <img src="pics/1.jpg" style="width:100%" id="picture">
+        <img src="pics/1.jpg" style="width:100%" id="picture" alt="partypics">
     </div>
 </header>
 <section>
@@ -55,63 +57,63 @@
                 Security:
                 Lockers will be available to store your laptop
                 </li>
-                <h4>Line up</h4>
-                <ul>
-                <li>Saturday 3 July:<br>
+                <span id="lineup">Line up</span>
+                    <ul>
+                        <li>Saturday 3 July:<br>
 
-                10:00 - 12:00 Coding workshops<br>
-                12:00 - 13:00 break<br>
-                13:00 - 15:00 Hackatons<br>
-                15:00 - 16:00 break<br>
-                </li>
-                <li>
-                Line up Stage Lamar<br>
-                16:00 - 18:00 David Guetta<br>
-                18:00 - 19:00 break<br>
-                19:00 - 21:00 DJ set David Guetta<br>
-                21:30 - 01:00 DJ set Daft Punk<br>
-                </li>
-                <li>
-                Line up Stage Giertz<br>
-                16:00 - 18:00 Coely<br>
-                18:00 - 19:00 break<br>
-                19:00 - 21:00 Zwangere Guy<br>
-                21:30 - 24:00 DJ set Stromae<br>
-                </li>
-                <li>
-                Sunday 4 July:<br>
+                        10:00 - 12:00 Coding workshops<br>
+                        12:00 - 13:00 break<br>
+                        13:00 - 15:00 Hackatons<br>
+                        15:00 - 16:00 break<br>
+                        </li>
+                        <li>
+                        Line up Stage Lamar<br>
+                        16:00 - 18:00 David Guetta<br>
+                        18:00 - 19:00 break<br>
+                        19:00 - 21:00 DJ set David Guetta<br>
+                        21:30 - 01:00 DJ set Daft Punk<br>
+                        </li>
+                        <li>
+                        Line up Stage Giertz<br>
+                        16:00 - 18:00 Coely<br>
+                        18:00 - 19:00 break<br>
+                        19:00 - 21:00 Zwangere Guy<br>
+                        21:30 - 24:00 DJ set Stromae<br>
+                        </li>
+                        <li>
+                        Sunday 4 July:<br>
 
-                10:00 - 12:00 Gaming workshops<br>
-                12:00 - 13:00 break<br>
-                13:00 - 15:00 Hackatons<br>
-                15:00 - 16:00 break<br>
-                </li>
-                <li>
-                Line up Stage Lamar<br>
-                16:00 - 18:00 DJ set Martin Garrix<br>
-                18:00 - 19:00 break<br>
-                19:00 - 21:00 DJ set Calvin Harris<br>
-                21:30 - 01:00 DJ set Tiësto<br>
-                </li>
-                <li>
-                Line up Stage Giertz<br>
-                16:00 - 18:00 Woodie Smalls<br>
-                18:00 - 19:00 break<br>
-                19:00 - 21:00 SoulTrash<br>
-                21:30 - 24:00 Black Acid<br>
-                </li></ul>
+                        10:00 - 12:00 Gaming workshops<br>
+                        12:00 - 13:00 break<br>
+                        13:00 - 15:00 Hackatons<br>
+                        15:00 - 16:00 break<br>
+                        </li>
+                        <li>
+                        Line up Stage Lamar<br>
+                        16:00 - 18:00 DJ set Martin Garrix<br>
+                        18:00 - 19:00 break<br>
+                        19:00 - 21:00 DJ set Calvin Harris<br>
+                        21:30 - 01:00 DJ set Tiësto<br>
+                        </li>
+                        <li>
+                        Line up Stage Giertz<br>
+                        16:00 - 18:00 Woodie Smalls<br>
+                        18:00 - 19:00 break<br>
+                        19:00 - 21:00 SoulTrash<br>
+                        21:30 - 24:00 Black Acid<br>
+                        </li>
+                    </ul>
             </ol>
 
 
         </div>
         <div class="tabcontent" id="contactform">
-            <form id="contact">
+            <form id="contact" action="mailto:example@example.com">
                 <h3>Contact us!</h3>
-                <label><input type="text" placeholder="FirstName"></label>
-                <label><input type="text" placeholder="LastName"></label><br>
-                <label><textarea id="subject" name="subject" placeholder="Feedback">
-
-                    </textarea></label>
+                <label><input type="text" placeholder="FirstName" id="firstname"></label>
+                <label><input type="text" placeholder="LastName" id="lastname"></label><br>
+                <label><textarea id="feedback" name="subject" placeholder="Feedback"></textarea></label><br>
+                <button id="submit">Submit</button>
             </form>
         </div>
     </div>
@@ -123,9 +125,13 @@
     <p id="visitors" data-visitors="1000"></p>
 </section>
 
+<section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.22960795441!2d4.362001415348436!3d50.84543227953182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4817a18b9f1%3A0xcedfc0133de66825!2sWarandepark!5e0!3m2!1snl!2sbe!4v1597223471813!5m2!1snl!2sbe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</section>
+
 
 <footer>
-
+    <p class="footer">&copy; 2020 BeCode</p>
 </footer>
 <script src="js/main.js"></script>
 </body>
