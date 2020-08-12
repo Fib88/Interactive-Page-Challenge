@@ -38,6 +38,7 @@
     contentTabs.forEach(content => {
         content.style.display = 'none';
     })
+    contentTabs[0].style.display = 'block';
     titleTabs.forEach((title, index) => {
         title.addEventListener('click', ()=>{
             contentTabs.forEach(content => {
