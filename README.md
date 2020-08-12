@@ -2,6 +2,8 @@
 
 Tessa,Huyen, Frank
 
+https://fib88.github.io/Interactive-Page-Challenge/
+
 Title: Interactive page challenge
 
     Repository: interactive-page-challenge
