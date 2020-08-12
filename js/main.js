@@ -31,6 +31,22 @@
         document.getElementById('picture').src = imageSources[prevPosition];
     })
 
+
+    /****** TABS ******/
+    const titleTabs = document.querySelectorAll('.tablinks');
+    const contentTabs = document.querySelectorAll('.tabcontent');
+    contentTabs.forEach(content => {
+        content.style.display = 'none';
+    })
+    titleTabs.forEach((title, index) => {
+        title.addEventListener('click', ()=>{
+            contentTabs.forEach(content => {
+                content.style.display = 'none';
+            })
+            contentTabs[index].style.display = 'block';
+        })
+    })
+
 })()
 
 function findImagePosition(imageSources)
