@@ -13,7 +13,7 @@
 }
 
 body{
-    background-image: url(https://assets-staging.audionetwork.com/usr/common/Background%20music%20header_745px.jpg);
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v485-nunoon-30-musicnotesbackgroundicon_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=95892dbe0623df29bd713df82120dcb3);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -32,13 +32,13 @@ body{
 }
 
 .tab {
-    background-color: bisque;
+    background-color: rgb(252, 237, 219);
     font-weight: bolder;
 }
 
 .tablinks {
-    display:flex;
-
+    text-align:center;
+    color:#EAB100;
 }
 
 img {
@@ -53,12 +53,13 @@ img {
 }
 
 #summary, #practicalinfo, #contactform {
- background-color: lightskyblue;
+ background-color: rgb(215, 223, 234);
 }
 
 #numbers {
-    background-color: bisque;
+    background-color: rgb(252, 237, 219);
     text-align: center;
+    font-size: 25px;
 }
 
 #map {
@@ -78,6 +79,12 @@ img {
     width:50%;
     margin-top: 15px;
 }
+
+#firstremainindays, #tickets {
+    color:#EAB100;
+    text-decoration: overline underline;
+}
+
 
 
 
